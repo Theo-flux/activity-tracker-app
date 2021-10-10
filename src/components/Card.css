@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  /* border: 1px solid magenta; */
+}
+
+@media screen and (min-width: 900px){
+  .card {
+    display: grid;
+    grid-template: auto auto / 250px 250px 250px ;
+    margin: 0;
+    grid-gap: 1em;
+    /* width: 90%; */
+  }
+}
